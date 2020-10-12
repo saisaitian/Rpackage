@@ -1,0 +1,30 @@
+---
+title: "my_vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my_vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(tss.lm)
+knitr::kable(iris[1:3,1:4])
+pander::pandoc.table(iris[1:3,1:4])
+```
+
+:
+  ffff
+  vvv
+
+1. xaimghmu
+
+1. xaing
+
